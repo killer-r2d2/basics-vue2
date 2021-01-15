@@ -12,3 +12,4 @@ https://www.vuemastery.com/courses/intro-to-vue-js/vue-instance
 - Vue instance is the heart of the application
 - {{}} expression to display the data
 - vue is reactive
+###### attribute binding:
