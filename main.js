@@ -3,7 +3,7 @@ var app = new Vue({
     data: {
         product: 'Socks',
         image: './img/socks.jpg',
-        google: 'https://www.20min.ch/'
+        inventory: 0
 
     }
 })
