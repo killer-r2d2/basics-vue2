@@ -19,3 +19,4 @@ https://www.vuemastery.com/courses/intro-to-vue-js/vue-instance
 ###### conditional rendering:
 There are Vue directives to conditionally render elements:
 v-if, v-else, v-else-if, v-show
+###### list rendering:
