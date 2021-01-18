@@ -24,3 +24,13 @@ v-if, v-else, v-else-if, v-show
 - We use an alias for the element in the array being iterated on, and specify the name of the array we are looping through. Ex: v-for="item in items"
 - We can loop over an array of objects and use dot notation to display values from the objects.
 - When using v-for it is recommended to give each rendered element its own unique key.
+###### event handling:
+The v-on directive is used to allow elements to listen for events
+The shorthand for v-on is @
+You can specify the type of event to listen for:
+click
+mouseover
+any other DOM event
+The v-on directive can trigger a method
+Triggered methods can take in arguments
+this refers to the current Vue instance’s data as well as other methods declared inside the instance
