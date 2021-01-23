@@ -36,10 +36,6 @@ Vue.component('product', {
             <button @click="removeFromCart">Remove from cart</button>
 
 
-            <div class="cart">
-                <p>Cart({{ cart }})</p>
-            </div>
-
         </div>
 
     </div>
@@ -62,12 +58,12 @@ Vue.component('product', {
                     variantImage: './img/blue-socks.jpg',
                 }
             ],
-            cart: 0
+
         }
     },
     methods: {
         addToCart() {
-            this.cart += 1
+            this.$emit('add-to-cart')
         },
         updateProduct(index) {            this.selectedVariant = index
             console.log(index);
@@ -99,7 +95,14 @@ Vue.component('product', {
 var app = new Vue({
     el: '#app',
     data: {
-        premium: false
-    }
+        premium: false,
+        cart: 0
+
+    },
+    method: {
+        updateCart() {
+            this.cart += 1
+        },
+    },
 
 })
