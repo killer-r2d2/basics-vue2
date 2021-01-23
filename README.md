@@ -47,7 +47,7 @@ We can specify requirements for the props a component is receiving
 Props are fed into a component through a custom attribute
 Props can be dynamically bound to the parent’s data
 Vue dev tools provide helpful insight about your components
-####### Components:
+###### Components:
 Components are blocks of code, grouped together within a custom element
 Components make applications more manageable by breaking up the whole into reusuable parts that have their own structure and behavior
 Data on a component must be a function
@@ -56,12 +56,12 @@ We can specify requirements for the props a component is receiving
 Props are fed into a component through a custom attribute
 Props can be dynamically bound to the parent’s data
     Vue dev tools provide helpful insight about your components
-####### Communicating Events:
+###### Communicating Events:
 A component can let its parent know that an event has happened with $emit
 A component can use an event handler with the v-on directive ( @ for short) to listen for an event emission, which can trigger a method on the parent
 A component can $emit data along with the announcement that an event has occurred
 A parent can use data emitted from its child
-####### Forms & v-model:
+###### Forms & v-model:
 We can use the v-model directive to create two-way binding on form elements
 We can use the .number modifier to tell Vue to cast that value as a number, but there is a bug with it
 We can use the .prevent event modifier to stop the page from reloading when the form is submitted
